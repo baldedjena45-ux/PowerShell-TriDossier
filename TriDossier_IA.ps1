@@ -1,5 +1,6 @@
-
+# Commit 3 : ajout de l'exclusion des extensions
 #commit 2: ajout du fichier de log
+   
     # Phase IA - Script de tri par extension amélioré
 param(
     [string]$targetFolder
@@ -79,4 +80,5 @@ foreach ($file in $files) {
 Write-Host ""
 Write-Host "Organisation terminée. Détails dans le fichier tri_log.txt." -ForegroundColor Green
 "Organisation terminée." | Add-Content -Path $logFile
+
 
